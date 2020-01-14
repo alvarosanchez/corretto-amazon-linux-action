@@ -14,6 +14,6 @@ None.
 
 ## Example usage
 
-uses: actions/corretto-amazon-linux-action@v1
+uses: alvarosanchez/corretto-amazon-linux-action@v1
 with:
   corretto-version: 11

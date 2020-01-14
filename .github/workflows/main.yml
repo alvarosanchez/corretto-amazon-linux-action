@@ -6,6 +6,6 @@ jobs:
     steps:
     - name: Test action step
       id: test
-      uses: actions/corretto-amazon-linux-action@v1
+      uses: alvarosanchez/corretto-amazon-linux-action@v1
       with:
         corretto-version: 11
