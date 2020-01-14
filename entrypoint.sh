@@ -10,3 +10,4 @@ fi
 
 cat /etc/system-release
 java -version
+ls -l $GITHUB_WORKSPACE
