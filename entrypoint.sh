@@ -8,4 +8,5 @@ else
     yum update -y && amazon-linux-extras enable corretto8 && yum install -y java-1.8.0-amazon-corretto-devel
 fi
 
+cat /etc/system-release
 java -version
