@@ -1,0 +1,11 @@
+on: push
+jobs:
+  test_corretto_11:
+    runs-on: ubuntu-latest
+    name: Test Corretto 11
+    steps:
+    - name: Test action step
+      id: test
+      uses: actions/corretto-amazon-linux-action@v1
+      with:
+        corretto-version: 11
