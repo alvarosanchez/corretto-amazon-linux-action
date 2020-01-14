@@ -1,4 +1,6 @@
+name: Test Action
 on: push
+
 jobs:
   test_corretto_11:
     runs-on: ubuntu-latest
@@ -9,3 +11,13 @@ jobs:
       uses: alvarosanchez/corretto-amazon-linux-action@v1
       with:
         corretto-version: 11
+
+  test_corretto_8:
+    runs-on: ubuntu-latest
+    name: Test Corretto 8
+    steps:
+    - name: Test action step
+      id: test
+      uses: alvarosanchez/corretto-amazon-linux-action@v1
+      with:
+        corretto-version: 8
